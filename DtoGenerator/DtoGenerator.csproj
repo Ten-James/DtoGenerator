@@ -15,7 +15,13 @@
         <PackageReadmeFile>readme.md</PackageReadmeFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageLicenseUrl>https://github.com/Ten-James/DtoGenerator/blob/master/LICENSE.md</PackageLicenseUrl>
-        <PackageId>james-dto-generator-library</PackageId>
+        <PackageId>TenJames.DtoGenerator</PackageId>
+        <Copyright>MIT</Copyright>
+        <PackageTags>Generator DTO WebApi </PackageTags>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\DtoGenerator.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>

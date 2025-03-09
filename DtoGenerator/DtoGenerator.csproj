@@ -15,7 +15,7 @@
         <PackageReadmeFile>readme.md</PackageReadmeFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageLicenseUrl>https://github.com/Ten-James/DtoGenerator/blob/master/LICENSE.md</PackageLicenseUrl>
-        <PackageId>james-dto-generator-library</PackageId>
+        <PackageId>TenJames.DtoGenerator</PackageId>
     </PropertyGroup>
 
     <ItemGroup>

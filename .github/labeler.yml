@@ -1,0 +1,14 @@
+docs:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.md"
+
+"CI/CD":
+  - changed-files:
+      - any-glob-to-any-file: ".github/**"
+
+feature:
+  - head-branch: ["^feature", "feature"]
+
+# Add 'release' label to any PR that is opened against the `main` branch
+release:
+  - base-branch: "main"
